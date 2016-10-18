@@ -1,0 +1,19 @@
+ul{ list-style: none}
+
+.user-face{ width: 150px; height: 150px; border: 1px solid #ccc; border-radius: 100px; position: relative; overflow: hidden; margin: 0 auto}
+.user-face img{ position: absolute; z-index: -1; display: block;}
+.user-list{ text-align: center; color: #9a9a9a; margin-top: 10px;}
+.user-list .user-name{ font-size: 1.1em}
+.user-list .user-integer{ display: inline; margin-left: 10px;}
+.user-list .user-integer i{ color: #6ac134;}
+.user-function-list{ font-size: 1.4em; color: #666; width: 100%; margin: 0; margin-top: 20px;}
+.user-function-list li{ height: 40px; line-height: 40px; border-bottom: 1px dotted #ddd; text-align: center; cursor: pointer;}
+
+.order-nav{ margin-top: 40px; padding: 1px;}
+.order-nav a{ padding: 4% 11%; border-right: 1px solid #ddd; color: #9a9a9a;}
+.order-nav .last-a{ border-right: none;}
+.order-nav .selected{ color: #6ac134;}
+.order-list{ color: #9a9a9a; margin-top: 50px;}
+.order-list li{  cursor: pointer; width: 100%; clear: both; height: 40px;}
+.order-list .order-hotel-name{ display: block; float: left;}
+.order-list .order-time{ display: block; float: right; color: #ccc}
